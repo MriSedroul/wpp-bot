@@ -1,25 +1,28 @@
 {
-  "name": "wpp-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MriSedroul/wpp-bot.git"
-  },
-  "keywords": [
-    "bot"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MriSedroul/wpp-bot/issues"
-  },
-  "homepage": "https://github.com/MriSedroul/wpp-bot#readme",
-  "dependencies": {
-    "whatsapp-web": "^1.0.3"
-  }
+	"name": "wpp-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MriSedroul/wpp-bot.git"
+	},
+	"keywords": [
+		"bot"
+	],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MriSedroul/wpp-bot/issues"
+	},
+	"homepage": "https://github.com/MriSedroul/wpp-bot#readme",
+	"dependencies": {
+		"venom-bot": "^4.3.7"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
 }
